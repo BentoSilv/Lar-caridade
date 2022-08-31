@@ -1,4 +1,28 @@
 .local{
+    width: 100%;
     display: flex;
-   justify-content: space-around;
+    justify-content: space-around;
+    min-height: 50px;
+    background: #32338e;
+    color: white;
+    flex-wrap: wrap; 
+    padding: 2rem;
+}
+#ion{
+    color: white;
+    padding: 5px;
+}
+.imagem{
+    display: none;
+    width: 300%;
+    height: 200%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.cabecalho{
+    width: 100%;
+}
+.link{
+    float:right ;
 }
