@@ -1,8 +1,12 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
 .local{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    min-height: 50px;
+    min-height: 20px;
     background: #32338e;
     color: white;
     flex-wrap: wrap; 
@@ -11,18 +15,36 @@
 #ion{
     color: white;
     padding: 5px;
+    text-decoration: none;
 }
-.imagem{
-    display: none;
-    width: 300%;
-    height: 200%;
+.menu {
     display: flex;
     flex-wrap: wrap;
-
+    margin: 30px;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    
 }
-.cabecalho{
-    width: 100%;
+@media screen  and (max-width:678px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+     text-align: center;
+     padding: 5px;
+    }
+    .link_item{
+        margin: 5px;
+       
+        
+    }
 }
-.link{
-    float:right ;
+#lista{
+    color: darkgrey;
+    text-decoration: none;
+    list-style: none;
+    
+}
+#lista:hover {
+    color: blue;
 }
